@@ -1,24 +1,68 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='board'>
+      <h1 className='header'>Interview Questions</h1>
+      <div className="wrapper">
+        <div className='category'>
+          <h1>Html</h1>
+          <div className='question'>
+            <div className='status success' />
+            <p>Sigin up form</p>
+          </div>
+          <div className='question'>
+            <div className='status pending' />
+            <p>Sigin up form</p>
+          </div>
+          <div className='question'>
+            <div className='status partial' />
+            <p>Sigin up form</p>
+          </div>
+          <div className='question'>
+            <div className='status success' />
+            <p>Sigin up form</p>
+          </div>
+        </div>
+        <div className='category'>
+          <h1>Css</h1>
+          <div className='question'>
+            <div className='status terminated' />
+            <p>Sigin up form</p>
+          </div>
+          <div className='question'>
+            <div className='status success' />
+            <p>Sigin up form</p>
+          </div>
+          <div className='question'>
+            <div className='status pending' />
+            <p>Sigin up form</p>
+          </div>
+          <div className='question'>
+            <div className='status partial' />
+            <p>Sigin up form</p>
+          </div>
+        </div>
+        <div className='category'>
+          <h1>Tailwind</h1>
+          <div className='question'>
+            <div className='status success' />
+            <p>Sigin up form</p>
+          </div>
+          <div className='question'>
+            <div className='status terminated' />
+            <p>Sigin up form</p>
+          </div>
+          <div className='question'>
+            <div className='status partial' />
+            <p>Sigin up form</p>
+          </div>
+          <div className='question'>
+            <div className='status pending' />
+            <p>Sigin up form</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
